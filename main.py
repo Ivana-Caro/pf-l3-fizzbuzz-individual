@@ -6,11 +6,10 @@
 10 % 3   # 1  → 10 is not divisible by 3   
 for number in range(1, 1001):
     if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
+        print("Fizzbuzz")
     elif number % 3 == 0:
         print("Fizz")
     elif number % 5 == 0:
         print("Buzz")
     else:
         print(number)
-
